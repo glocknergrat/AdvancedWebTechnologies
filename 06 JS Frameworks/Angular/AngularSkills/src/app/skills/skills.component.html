@@ -10,12 +10,16 @@
         <tr>
           <th>ID</th>
           <th>Name</th>
+          <th>hours</th>
+          <th>completed</th>
         </tr>
       </thead>
       <tbody>
         <tr *ngFor="let s of skills" (click)="removeSkill(s)">
           <td>{{ s.id }}</td>
           <td>{{ s.name }}</td>
+          <td>{{ s.hours }}</td>
+          <td>{{ s.completed }}</td>
         </tr>
       </tbody>
     </table>

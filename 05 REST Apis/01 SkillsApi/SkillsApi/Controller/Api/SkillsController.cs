@@ -26,6 +26,7 @@ namespace SkillsApi
         [HttpGet]
         public Skill[] Get()
         {
+            int x=10;
             return this.ctx.Skills.ToArray();
         }
 

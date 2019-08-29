@@ -1,5 +1,6 @@
 [
-  { "id": 1, "name": "node.js" },
-  { "id": 2, "name": "type script" },
-  { "id": 3, "name": "java script" }
+	{ "id": 1, "name": "node.js", "hours": 7, "completed": false },
+	{ "id": 2, "name": "type script", "hours": 7, "completed": false },
+	{ "id": 3, "name": "java script", "hours": 7, "completed": false },
+	{ "id": 4, "name": "ng", "hours": 7, "completed": false }
 ]

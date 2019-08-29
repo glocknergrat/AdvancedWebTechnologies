@@ -25,6 +25,6 @@ namespace SkillsApi
         }
 
         public DbSet<Skill> Skills { get; set; }
-
+        public DbSet<Lesson> Lessons { get; set; }
     }
 }
